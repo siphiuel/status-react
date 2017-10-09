@@ -28,3 +28,4 @@
       string/lower-case
       keyword))
 
+(def jsc-enabled? (enabled? (get-config :JSC_ENABLED 0)))
