@@ -74,10 +74,12 @@
          [chat-icon/chat-icon
           (display-image me? account-photo-path contact-photo-path photo-path whisper-id)
           {:size 24}]]
-        [react/text {:style           styles/discover-list-item-name
-                     :font            :medium
-                     :number-of-lines 1}
-         (display-name me? account-name contact-name name whisper-id)]]
+        [react/touchable-highlight {:on-press #(re-frame/dispatch [:show-status-author-profile whisper-id])}
+         [react/view
+          [react/text {:style           styles/discover-list-item-name
+                       :font            :medium
+                       :number-of-lines 1}
+           (display-name me? account-name contact-name name whisper-id)]]]]
 
        (when-not me?
          (chat-button whisper-id))]
@@ -106,10 +108,12 @@
          [chat-icon/chat-icon
           (display-image me? account-photo-path contact-photo-path photo-path whisper-id)
           {:size 24}]]
-        [react/text {:style           styles/discover-list-item-name
-                     :font            :medium
-                     :number-of-lines 1}
-         (display-name me? account-name contact-name name whisper-id)]]
+        [react/touchable-highlight {:on-press #(re-frame/dispatch [:show-status-author-profile whisper-id])}
+         [react/view
+          [react/text {:style           styles/discover-list-item-name
+                       :font            :medium
+                       :number-of-lines 1}
+           (display-name me? account-name contact-name name whisper-id)]]]]
 
        (when-not me?
          (chat-button whisper-id))]]
