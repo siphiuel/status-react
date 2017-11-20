@@ -151,20 +151,20 @@
                   :chat/chat-ui-props
                   :chat/chat-list-ui-props
                   :chat/layout-height
-                  :chat/expandable-view-height-to-value 
+                  :chat/expandable-view-height-to-value
                   :chat/loading-allowed
                   :chat/message-data
                   :chat/message-id->transaction-id
                   :chat/message-status
                   :chat/unviewed-messages
                   :chat/selected-participants
-                  :chat/chat-loaded-callbacks 
+                  :chat/chat-loaded-callbacks
                   :chat/command-hash-valid?
                   :chat/public-group-topic
                   :chat/confirmation-code-sms-listener
                   :chat/messages
                   :chat/handler-data
-                  :chat/loaded-chats 
+                  :chat/loaded-chats
                   :chat/raw-unviewed-messages
                   :chat/bot-db
                   :chat/geolocation
@@ -175,7 +175,6 @@
                   :discoveries/tags
                   :discoveries/current-tag
                   :discoveries/request-discoveries-timer
-                  :discoveries/new-discover
                   :wallet/wallet
                   :prices/prices
                   :prices/prices-loading?
