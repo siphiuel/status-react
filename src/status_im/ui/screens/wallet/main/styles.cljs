@@ -134,9 +134,6 @@
    :color       styles/color-gray4
    :margin-left 6})
 
-(defn asset-border [color]
-  {:border-color color :border-width 1 :border-radius 32})
-
 (def corner-dot
   {:position         :absolute
    :top              12

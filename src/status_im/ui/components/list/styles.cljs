@@ -43,7 +43,8 @@
    :margin-right 16})
 
 (def right-item-wrapper
-  {:margin-right 16})
+  {:margin-right    16
+   :justify-content :center})
 
 (def base-separator
   {:height           1
