@@ -48,10 +48,8 @@
 		925C1F481F7B73B20063DFA0 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C1F411F7B73B20063DFA0 /* FirebaseCoreDiagnostics.framework */; };
 		925C1F491F7B73B20063DFA0 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C1F421F7B73B20063DFA0 /* FirebaseInstanceID.framework */; };
 		925C1F4A1F7B73B20063DFA0 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C1F431F7B73B20063DFA0 /* FirebaseNanoPB.framework */; };
-		925C1F4B1F7B73B20063DFA0 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C1F441F7B73B20063DFA0 /* GoogleToolboxForMac.framework */; };
 		925C1F4C1F7B73B20063DFA0 /* nanopb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C1F451F7B73B20063DFA0 /* nanopb.framework */; };
 		925C1F811F7B73C00063DFA0 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C1F7F1F7B73C00063DFA0 /* FirebaseMessaging.framework */; };
-		925C1F821F7B73C00063DFA0 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925C1F801F7B73C00063DFA0 /* Protobuf.framework */; };
 		92A0DF7D1F4DE3A4002051BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 92A0DF491F4DE3A0002051BC /* GoogleService-Info.plist */; };
 		9E0B01A11DDC5DA7002B0359 /* SF-UI-Text-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B01A01DDC5DA7002B0359 /* SF-UI-Text-Light.otf */; };
 		9E3AB6D01D87DB2B008846B4 /* libReact-Native-Webview-Bridge.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3AB6C61D87DA2B008846B4 /* libReact-Native-Webview-Bridge.a */; };
@@ -200,13 +198,6 @@
 			proxyType = 2;
 			remoteGlobalIDString = CDD7BF781B2D5125006FDA75;
 			remoteInfo = RNI18n;
-		};
-		20B7D10F1D3F74CD00B70F14 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 46E2F6052EB44C698C680894 /* RNI18n.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = CDD7BF831B2D5126006FDA75;
-			remoteInfo = RNI18nTests;
 		};
 		20B7D1141D3F74CD00B70F14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -544,6 +535,13 @@
 			remoteGlobalIDString = 94DDAC5C1F3D024300EED511;
 			remoteInfo = "RNSVG-tvOS";
 		};
+		C9B824E81FC713C800D277C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46E2F6052EB44C698C680894 /* RNI18n.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6476C4051EEAA69700B10F51;
+			remoteInfo = "RNI18n-tvOS";
+		};
 		CE4E319D1D8693090033ED64 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E5A7625B76441D984EA8C0D /* RCTImageResizer.xcodeproj */;
@@ -612,7 +610,7 @@
 		439B6B4B407A4E2AACAFE5BE /* RCTStatus.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTStatus.xcodeproj; path = "../modules/react-native-status/ios/RCTStatus/RCTStatus.xcodeproj"; sourceTree = "<group>"; };
 		43A6FA689D844B0BAF3AA8B4 /* RCTOrientation.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RCTOrientation.xcodeproj; path = "../node_modules/react-native-orientation/iOS/RCTOrientation.xcodeproj"; sourceTree = "<group>"; };
 		45FB5F523DE04BDE9877869C /* RNRandomBytes.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNRandomBytes.xcodeproj; path = "../node_modules/react-native-randombytes/RNRandomBytes.xcodeproj"; sourceTree = "<group>"; };
-		46E2F6052EB44C698C680894 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/RNI18n.xcodeproj"; sourceTree = "<group>"; };
+		46E2F6052EB44C698C680894 /* RNI18n.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNI18n.xcodeproj; path = "../node_modules/react-native-i18n/ios/RNI18n.xcodeproj"; sourceTree = "<group>"; };
 		4E586E1B0E544F64AA9F5BD1 /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		4EC426A98043452BB6F9C134 /* libRNInstabug.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNInstabug.a; sourceTree = "<group>"; };
 		52E205D210BC48B7A553BB62 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
@@ -635,10 +633,8 @@
 		925C1F411F7B73B20063DFA0 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
 		925C1F421F7B73B20063DFA0 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
 		925C1F431F7B73B20063DFA0 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
-		925C1F441F7B73B20063DFA0 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
 		925C1F451F7B73B20063DFA0 /* nanopb.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = nanopb.framework; sourceTree = "<group>"; };
 		925C1F7F1F7B73C00063DFA0 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
-		925C1F801F7B73C00063DFA0 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
 		92A0DF491F4DE3A0002051BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9E0B01A01DDC5DA7002B0359 /* SF-UI-Text-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SF-UI-Text-Light.otf"; sourceTree = "<group>"; };
 		9E3AB6B21D87DA2A008846B4 /* React-Native-Webview-Bridge.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "React-Native-Webview-Bridge.xcodeproj"; path = "../node_modules/react-native-webview-bridge/ios/React-Native-Webview-Bridge.xcodeproj"; sourceTree = "<group>"; };
@@ -697,7 +693,6 @@
 				925C1F4A1F7B73B20063DFA0 /* FirebaseNanoPB.framework in Frameworks */,
 				B24FC7FF1DE7195F00D694FF /* MessageUI.framework in Frameworks */,
 				B24FC7FD1DE7195700D694FF /* Social.framework in Frameworks */,
-				925C1F4B1F7B73B20063DFA0 /* GoogleToolboxForMac.framework in Frameworks */,
 				9EE89E2D1E03FD9F007D3C25 /* libimageCropPicker.a in Frameworks */,
 				9E3AB6D01D87DB2B008846B4 /* libReact-Native-Webview-Bridge.a in Frameworks */,
 				20B6B6841D92C42600CC5C6A /* RSKImageCropper.framework in Frameworks */,
@@ -712,7 +707,6 @@
 				00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */,
 				133E29F31AD74F7200F7D852 /* libRCTLinking.a in Frameworks */,
 				00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */,
-				925C1F821F7B73C00063DFA0 /* Protobuf.framework in Frameworks */,
 				925C1F4C1F7B73B20063DFA0 /* nanopb.framework in Frameworks */,
 				139105C61AF99C1200B5F7CC /* libRCTSettings.a in Frameworks */,
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
@@ -941,7 +935,7 @@
 			isa = PBXGroup;
 			children = (
 				20B7D10E1D3F74CD00B70F14 /* libRNI18n.a */,
-				20B7D1101D3F74CD00B70F14 /* RNI18nTests.xctest */,
+				C9B824E91FC713C800D277C6 /* libRNI18n-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1168,12 +1162,10 @@
 			isa = PBXGroup;
 			children = (
 				925C1F7F1F7B73C00063DFA0 /* FirebaseMessaging.framework */,
-				925C1F801F7B73C00063DFA0 /* Protobuf.framework */,
 				925C1F401F7B73B20063DFA0 /* FirebaseCore.framework */,
 				925C1F411F7B73B20063DFA0 /* FirebaseCoreDiagnostics.framework */,
 				925C1F421F7B73B20063DFA0 /* FirebaseInstanceID.framework */,
 				925C1F431F7B73B20063DFA0 /* FirebaseNanoPB.framework */,
-				925C1F441F7B73B20063DFA0 /* GoogleToolboxForMac.framework */,
 				925C1F451F7B73B20063DFA0 /* nanopb.framework */,
 				B24FC7FE1DE7195F00D694FF /* MessageUI.framework */,
 				B24FC7FC1DE7195700D694FF /* Social.framework */,
@@ -1594,13 +1586,6 @@
 			remoteRef = 20B7D10D1D3F74CD00B70F14 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		20B7D1101D3F74CD00B70F14 /* RNI18nTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = RNI18nTests.xctest;
-			remoteRef = 20B7D10F1D3F74CD00B70F14 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		20B7D1151D3F74CD00B70F14 /* libRCTCamera.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1937,6 +1922,13 @@
 			remoteRef = C90048221FC47AF50002B8EA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		C9B824E91FC713C800D277C6 /* libRNI18n-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRNI18n-tvOS.a";
+			remoteRef = C9B824E81FC713C800D277C6 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		CE4E319E1D8693090033ED64 /* libRCTImageResizer.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1997,7 +1989,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "set -o errexit\nexport NODE_BINARY=\"node --max-old-space-size=4096\"\n../node_modules/react-native/packager/react-native-xcode.sh";
+			shellScript = "set -o errexit\nexport NODE_BINARY=\"node --max-old-space-size=4096\"\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
 		1986C962445001A2631E6AB0 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -2098,7 +2090,7 @@
 		};
 		E3914A731DF919ED00EBB515 /* Run Script */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
@@ -2106,7 +2098,7 @@
 			name = "Run Script";
 			outputPaths = (
 			);
-			runOnlyForDeploymentPostprocessing = 0;
+			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "#!/bin/bash\n\n# This script automatically sets the version and short version string of\n# an Xcode project from the Git repository containing the project.\n#\n# To use this script in Xcode, add the script's path to a \"Run Script\" build\n# phase for your application target.\n\nset -o errexit\nset -o nounset\n\n# First, check for git in $PATH\nhash git 2>/dev/null || { echo >&2 \"Git required, not installed.  Aborting build number update script.\"; exit 0; }\n\n# Alternatively, we could use Xcode's copy of the Git binary,\n# but old Xcodes don't have this.\n#GIT=$(xcrun -find git)\n\n# Run Script build phases that operate on product files of the target that defines them should use the value of this build setting [TARGET_BUILD_DIR]. But Run Script build phases that operate on product files of other targets should use ?BUILT_PRODUCTS_DIR? instead.\nINFO_PLIST=\"${TARGET_BUILD_DIR}/${INFOPLIST_PATH}\"\n\n# Build version (closest-tag-or-branch \"-\" commits-since-tag \"-\" short-hash dirty-flag)\nBUILD_VERSION=$(git describe --tags --always --dirty=+)\n\n# Use the latest tag for short version (expected tag format \"vn[.n[.n]]\")\n# or if there are no tags, we make up version 0.0.<commit count>\nLATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null) || LATEST_TAG=\"HEAD\"\nif [ $LATEST_TAG = \"HEAD\" ]\nthen COMMIT_COUNT=$(git rev-list --count HEAD)\n    LATEST_TAG=\"0.0.$COMMIT_COUNT\"\n    COMMIT_COUNT_SINCE_TAG=0\nelse\n    COMMIT_COUNT_SINCE_TAG=$(git rev-list --count ${LATEST_TAG}..)\n    LATEST_TAG=${LATEST_TAG##v} # Remove the \"v\" from the front of the tag\nfi\nif [ $COMMIT_COUNT_SINCE_TAG = 0 ]; then\n    SHORT_VERSION=\"$LATEST_TAG\"\nelse\n    # increment final digit of tag and append \"d\" + commit-count-since-tag\n    # e.g. commit after 1.0 is 1.1d1, commit after 1.0.0 is 1.0.1d1\n    # this is the bit that requires /bin/bash\n    OLD_IFS=$IFS\n    IFS=\".\"\n    VERSION_PARTS=($LATEST_TAG)\n    LAST_PART=$((${#VERSION_PARTS[@]}-1))\n    VERSION_PARTS[$LAST_PART]=$((${VERSION_PARTS[${LAST_PART}]}+1))\n    SHORT_VERSION=\"${VERSION_PARTS[*]}d${COMMIT_COUNT_SINCE_TAG}\"\n    IFS=$OLD_IFS\nfi\n        \n# Bundle version (commits-on-master[-until-branch \".\" commits-on-branch])\n# Assumes that two release branches will not diverge from the same commit on master.\nif [ $(git rev-parse --abbrev-ref HEAD) = \"master\" ]; then\n    MASTER_COMMIT_COUNT=$(git rev-list --count HEAD)\n    BRANCH_COMMIT_COUNT=0\n    BUNDLE_VERSION=\"$MASTER_COMMIT_COUNT\"\nelse\n    MASTER_COMMIT_COUNT=$(git rev-list --count $(git rev-list master.. | tail -n 1)^)\n    BRANCH_COMMIT_COUNT=$(git rev-list --count master..)\n    if [ $BRANCH_COMMIT_COUNT = 0 ]\n    then BUNDLE_VERSION=\"$MASTER_COMMIT_COUNT\"\n    else BUNDLE_VERSION=\"${MASTER_COMMIT_COUNT}.${BRANCH_COMMIT_COUNT}\"\n    fi\nfi\n        \n# For debugging:\necho \"BUILD VERSION: $BUILD_VERSION\"\necho \"LATEST_TAG: $LATEST_TAG\"\necho \"COMMIT_COUNT_SINCE_TAG: $COMMIT_COUNT_SINCE_TAG\"\necho \"SHORT VERSION: $SHORT_VERSION\"\necho \"MASTER_COMMIT_COUNT: $MASTER_COMMIT_COUNT\"\necho \"BRANCH_COMMIT_COUNT: $BRANCH_COMMIT_COUNT\"\necho \"BUNDLE_VERSION: $BUNDLE_VERSION\"\n        \n/usr/libexec/PlistBuddy -c \"Add :CFBundleBuildVersion string $BUILD_VERSION\" \"$INFO_PLIST\" 2>/dev/null || /usr/libexec/PlistBuddy -c \"Set :CFBundleBuildVersion $BUILD_VERSION\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleShortVersionString $SHORT_VERSION\" \"$INFO_PLIST\"\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $BUNDLE_VERSION\" \"$INFO_PLIST\"";
 		};
