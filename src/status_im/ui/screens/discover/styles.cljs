@@ -184,8 +184,7 @@
 
 (def all-dapps-flat-list
   {:justify-content  :center
-   :flex-direction   :row
-   :flex-wrap        :wrap
+   :flex-direction   :row 
    :margin-top       8
    :background-color styles/color-white})
 
@@ -230,8 +229,7 @@
 
 (def dapp-preview-flat-list
   {:justify-content  :center
-   :flex-direction   :row
-   :flex-wrap        :wrap
+   :flex-direction   :row 
    :margin-left      8
    :margin-vertical  0
    :background-color styles/color-white})
